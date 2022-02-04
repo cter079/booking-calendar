@@ -1,0 +1,475 @@
+body {
+    margin: 0;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 100%;
+}
+
+.navbar {
+    z-index: 9;
+    right: 0;
+    left: 0;
+    padding-top: 1%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.dot {
+    display: flex;
+    opacity: 0;
+    color: white;
+}
+
+.link:hover+.dot {
+    opacity: 1;
+    transition-duration: 700ms;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: none;
+    font-size: 10px;
+    font-family: 'Red Hat Mono', monospace;
+    line-height: 0px;
+    justify-content: center;
+    transform: rotateZ(90deg);
+}
+
+.internintern {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 24px;
+    padding-left: 110px;
+    position: absolute;
+    z-index: 3;
+    left: 20px;
+    top: 53px;
+    transform: rotatex(40deg);
+    transform: rotatez(-10deg);
+    size: 100%;
+}
+
+.navbar-types {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    z-index: 1;
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    left: 25rem;
+}
+
+li {
+    z-index: 4;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    size: 100%;
+}
+
+li .links {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    z-index: 4;
+    color: rgb(80, 80, 80);
+    size: 100%;
+}
+
+.links:hover {
+    transition: 700ms;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navbar-logo2 {
+    display: block;
+    position: absolute;
+    right: 1%;
+    z-index: 2;
+    top: 0%;
+    width: auto;
+}
+
+.homeimage {
+    margin: 0px;
+    position: absolute;
+    left: 0%;
+    display: flex;
+    z-index: 10;
+    width: 100vw;
+    size: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.reserveer-nu {
+    width: 250px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 40px;
+    position: absolute;
+    left: 620px;
+    top: 70%;
+    z-index: 10;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: none;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 0px;
+    text-align: center;
+    size: 100%;
+}
+
+.knop1 {
+    color: inherit;
+}
+
+.knop1:link {
+    text-decoration: none;
+}
+
+.knop1:visited {
+    text-decoration: none;
+}
+
+.knop1:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition-duration: 400ms;
+}
+
+.knop1:active {
+    text-decoration: none;
+}
+
+.reserveer-nu:hover {
+    background: black;
+    color: white;
+    transition-duration: 400ms;
+    cursor: pointer;
+}
+
+.blokken1 {
+    width: 350px;
+    height: 250px;
+    background: #ffffff;
+    border-radius: 40px;
+    position: absolute;
+    left: 4%;
+    top: 64%;
+    z-index: 10;
+    border-style: solid;
+    border-color: rgb(95, 95, 95);
+    border-width: 1px;
+    size: 100%;
+    display: inline-block;
+}
+
+.blokken2 {
+    width: 350px;
+    height: 250px;
+    background: #ffffff;
+    border-radius: 40px;
+    position: absolute;
+    left: 570px;
+    top: 64%;
+    z-index: 10;
+    border-style: solid;
+    border-color: rgb(95, 95, 95);
+    border-width: 1px;
+    size: 100%;
+}
+
+.blokken3 {
+    width: 350px;
+    height: 250px;
+    background: #ffffff;
+    border-radius: 40px;
+    position: absolute;
+    right: 4%;
+    top: 64%;
+    z-index: 10;
+    border-style: solid;
+    border-color: rgb(95, 95, 95);
+    border-width: 1px;
+    size: 100%;
+}
+
+.reservereninfo1 {
+    color: black;
+    font-family: 'Public Sans', sans-serif;
+    z-index: 11;
+    left: 74px;
+    top: 66%;
+    font-size: 18px;
+    position: absolute;
+    max-width: 160px;
+    size: 100%;
+}
+
+.reservereninfo2 {
+    font-family: 'Public Sans', sans-serif;
+    color: black;
+    z-index: 11;
+    left: 74px;
+    top: 74%;
+    font-size: 18px;
+    position: absolute;
+    max-width: 130px;
+    size: 100%;
+}
+
+.reservereninfoplaatje {
+    z-index: 11;
+    left: 224px;
+    top: 74%;
+    position: absolute;
+    size: 100%;
+    max-width: 100%;
+}
+
+.reservereninfo3 {
+    color: black;
+    font-family: 'Public Sans', sans-serif;
+    z-index: 11;
+    left: 46%;
+    top: 66%;
+    font-size: 18px;
+    position: absolute;
+    max-width: 160px;
+    size: 100%;
+}
+
+.reservereninfo4 {
+    font-family: 'Public Sans', sans-serif;
+    color: black;
+    z-index: 11;
+    left: 45%;
+    top: 74%;
+    background-color: none;
+    font-size: 18px;
+    position: absolute;
+    max-width: 130px;
+    size: 100%;
+    text-align: center;
+}
+
+.knop2 {
+    color: inherit;
+    z-index: 10;
+}
+
+.knop2:link {
+    text-decoration: none;
+}
+
+.knop1:visited {
+    text-decoration: none;
+}
+
+.knop2:hover {
+    text-decoration: none;
+}
+
+.knop2:active {
+    text-decoration: none;
+}
+
+.button4 {
+    width: 125px;
+    height: 25px;
+    background: #ffcc00;
+    border-radius: 40px;
+    position: absolute;
+    left: 45%;
+    top: 83%;
+    z-index: 10;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+}
+
+.button4:hover {
+    color: white;
+    transition-duration: 400ms;
+}
+
+.button5 {
+    color: inherit;
+    z-index: 10;
+    position: absolute;
+    left: 48.5%;
+    top: 83.5%;
+}
+
+.button5:link {
+    text-decoration: none;
+}
+
+.button5:visited {
+    text-decoration: none;
+}
+
+.button5:hover {
+    text-decoration: none;
+    color: white;
+    transition-duration: 400ms;
+}
+
+.button5:active {
+    text-decoration: none;
+}
+
+.reservereninfo5 {
+    color: black;
+    font-family: 'Public Sans', sans-serif;
+    z-index: 11;
+    right: 15%;
+    top: 66%;
+    font-size: 18px;
+    position: absolute;
+    max-width: 190px;
+    size: 100vw;
+}
+
+.reservereninfo6 {
+    font-family: 'Public Sans', sans-serif;
+    color: black;
+    z-index: 11;
+    right: 17%;
+    top: 73%;
+    background-color: none;
+    font-size: 18px;
+    position: absolute;
+    max-width: 130px;
+    size: 100vw;
+    text-align: left;
+}
+
+.reservereninfo6plaatje {
+    z-index: 11;
+    right: 5%;
+    top: 75%;
+    position: absolute;
+    max-width: 100%;
+}
+
+.information {
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome {
+    width: 250px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 40px;
+    position: absolute;
+    left: 620px;
+    top: 10%;
+    z-index: 10;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: none;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 0px;
+    text-align: center;
+    size: 100%;
+}
+
+.welcome:hover {
+    background: black;
+    color: white;
+    transition-duration: 400ms;
+    cursor: pointer;
+}
+
+.profile {
+    font-size: 18px;
+    color: black;
+    display: flex;
+    font-family: 'Public Sans', sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+}
+
+.email {
+    font-family: 'Public Sans', 'sans-serif';
+}
+
+.openings {
+    font-family: 'Oswald', sans-serif;
+}
+
+.intbutton {
+    background-color: #ffcc00;
+    border: 0;
+    border-radius: 24px;
+    width: 80px;
+}
+
+.but {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.intbutton:hover {
+    background-color: black;
+    color: #ffcc00;
+}
+
+.but:hover {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.but:active {
+    text-decoration: none;
+}
+
+.but:link {
+    text-decoration: none;
+}
+
+.htmltitle {
+    font-family: 'Oswald', 'sans-serif';
+    color: black;
+}
