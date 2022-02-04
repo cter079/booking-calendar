@@ -1,11 +1,6 @@
 <?php
 include 'functions.php';
-session_start();
-// Checken of de gebruiker is ingelogd. Als hij niet is ingelogd wordt hij teruggestuurd naar index.html
-if (!isset($_SESSION['loggedin'])) {
-    header('location: index.html');
-    exit;
-}
+
 
 if (isset($_GET['ym'])) {
     $ym = $_GET['ym'];
